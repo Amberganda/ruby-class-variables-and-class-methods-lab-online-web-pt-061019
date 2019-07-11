@@ -18,5 +18,9 @@ class Song
         return @@count
     end
 
+    def self.artists(song)
+        @@artists
+    end
+
 
 end
